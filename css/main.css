@@ -18,23 +18,25 @@ a:hover {
   max-width: 100%;
 }
 
+.brand {
+  margin-top: 25px;
+}
+
 .navbar-brand {
-  padding-top: 40px;
-  margin-left: 0px
+  padding: 15px 0px;
 }
 
 .nav_header {
-  text-align: right;
+  text-align: center;
 }
 
 .nav_links {
   display: inline-block;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Circular-Bold;
   font-size: 12px;
   color: #787C8E;
   letter-spacing: 2px;
   padding: 15px;
-  font-weight: 600;
 }
 
 .navbar-collapse {
@@ -42,33 +44,29 @@ a:hover {
 }
 
 .title {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 60px;
-  color: #191A17;
-  letter-spacing: 1.5px;
-  margin-top:200px;
-  font-weight:600;
-
+font-family: Circular-Medium;
+font-size: 60px;
+color: #191A17;
+letter-spacing: 1.5px;
+margin-top:200px
 }
 
 .second-title {
-  font-family: 'Roboto Slab', serif;
-  font-size: 14px;
-  color: #4630EB;
-  letter-spacing: 5.83px;
-  margin-bottom: 44px;
-  font-weight: 600;
+font-family: RobotoSlab-Bold;
+font-size: 14px;
+color: #4630EB;
+letter-spacing: 5.83px;
+margin-bottom: 44px;
 }
 
 .about-me {
 
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 16px;
   color: #707487;
   letter-spacing: 0.3px;
   line-height: 34px;
   width: 450px;
-  font-weight: 400;
 }
 
 
@@ -86,12 +84,11 @@ a:hover {
 }
 
 .scroll_more {
-  font-family: 'Work Sans', sans-serif;
+  font-family: Circular-Book;
   font-size: 13px;
   color: #4630EB;
   letter-spacing: 1.08px;
   margin-top: 50px;
-  font-weight: 400;
 }
 
 /** Blog section **/
@@ -102,74 +99,96 @@ a:hover {
   padding-bottom: 100px;
 }
 
-.blog-right-col {
-  margin-top: 40px;
-}
 
 .blog_title {
-  font-family: 'Work Sans', sans-serif;
+  font-family: Circular-Medium;
   font-size: 50px;
   color: #191A17;
   letter-spacing: 1.35px;
   padding-top: 50px;
-  font-weight: 600;
 }
 
 .blog_item {
-  width: 450px;
-  background-color: #ffffff;
+  padding-top: -20px;
+  margin-right: -10px;
+  height: 380px;
   margin-top: 60px; 
-  margin-bottom: 40px;
+  background-color: #FADBC8;
+}
+
+.blog_item:hover {
+  margin-right: -10px;
+  height: 380px;
+  margin-top: 60px; 
+  background-color: #FADBC8;
+  box-shadow: 2px 2px 8px 0 rgba(189,185,185,0.30);
+}
+
+
+.blog_item_2 {
+  margin-right: -10px;  
+  height: 380px;
+  margin-top: 60px; 
+  background-color: #FFE7EF;
+
+
+}
+
+.blog_item_3 {
+  margin-right: -10px;
+  height: 380px;
+  margin-top: 60px; 
+  background-color: #C6E1F1;
+  
+
+}
+
+.blog_item_4 {
+  margin-right: -10px;
+  height: 380px;
+  margin-top: 60px; 
+  background-color: #C3F0CC;
+  
 }
 
 .item-type {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  color: #CACACA;
+  font-family: RobotoSlab-Regular;
+  font-size: 14px;
+  color: #000;
   letter-spacing: 0;
   margin-top: 44px;
-  margin-bottom: 22px;
-  padding-left: 40px;
+  padding-left: 20px;
+  padding-top: 35px;
+  opacity: 0.51;
+
 }
 
 .title_item {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
-  color: #191A17;
+  font-family: Circular-Book;
+  font-size: 28px;
+  color: #000;
   letter-spacing: 0;
-  margin-bottom: 45px;
-  padding-left: 40px;
-  padding-right: 50px;
-  font-weight: 400;
+  margin-bottom: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 1.4;
+  
 }
 
 .read_more {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 16px;
-  color: #191A17;
+  color: #000;
   letter-spacing: 0;
-  padding-left: 40px;
-  padding-bottom: 44px;
+  padding-left: 20px;
+  padding-bottom: 35px;
 }
 
-.item-content_subscribe {
-  text-align: center;
-  width: 450px;
-  background-color: #ffffff;
-  margin-top: 60px; 
-  margin-bottom: 40px;
+.read_articles {
+  width: 250px;
+  margin-top: 20px;
 }
 
-.get_notified {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  color: #707487;
-  letter-spacing: 0;
-  line-height: 34px;
-  width: 450px;
-  text-align: center;
-  padding-top: 44px;
-}
 
 .btn-primary {
   align-self: center;
@@ -207,119 +226,51 @@ a:hover {
   border-radius: 4px;
 }
 
+.btn-third_more {
+  align-self: center;
+  background-color: #000;
+  width: 125px;
+  height: 50px;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.btn-third_more:hover {
+  align-self: center;
+  background-color: #4630EB;
+  width: 125px;
+  height: 50px;
+  margin-bottom: 40px;
+  box-shadow: 1px 3px 4px 0 rgba(181,181,181,0.50);
+}
+.read_more_blogs {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 30px;
+}
 /** end of blog section **/
 
 
-/** services **/ 
-
-
-.left_service {
-  background: #4630EB;
-  padding-top: 80px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 60px;
-  margin-top: 80px;
-}
-
-.service_title {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
-  color: #FFFFFF;
-  letter-spacing: 0.3px;
-  margin-top: 45px;
-}
-
-.service_text {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  color: #FFFFFF;
-  letter-spacing: 0.3px;
-  line-height: 30px;
-  margin-top: 30px;
-}
-
-
-.right_service {
-  background: #EEEFF2;
-  padding-top: 60px;
-  padding-right: 50px;
-  padding-left: 50px;
-  padding-bottom: 60px;
-  margin-top: 80px;
-}
-
-.service_title_black {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 30px;
-  color: #191A17;
-  letter-spacing: 0;
-}
-
-.service_text_black {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  color: #707487;
-  letter-spacing: 0.3px;
-  line-height: 30px;
-  margin-top: 30px;
-}
-
-.design_process {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
-  color: #4630EB;
-  letter-spacing: 0;
-  line-height: 30px;
-  margin-top: 80px;
-  margin-left: 60px;
-}
-
-.process {
-  margin-top: 20px;
-  width: 100%;
-}
-
-.arrow_down {
-  margin-left: 270px;
-  margin-top: -40px;
-}
-
-.interested_work {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 38px;
-  color: #4630EB;
-  letter-spacing: 1.08px;
-  margin-top: 60px;
-  margin-bottom: 100px;
-  font-weight: 600;
-}
-
-.button_call {
-  margin-top: 112px;
-  text-align: right;
-  
-}
-
-/** end of services **/
+/** Projects **/
 
 .projects {
   background-color: #0A0A0A;
   padding-top: 100px;
   padding-bottom: 100px;
   background-size: auto;
+  padding-left: 0px;
 }
 
 .projects_title {
-  font-family: 'Work Sans', sans-serif;
+  font-family: Circular-Medium;
   font-size: 50px;
   color: #fff;
   letter-spacing: 1.35px;
-  font-weight: 600;
 }
 
 .about_project {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 16px;
   color: #fff;
   letter-spacing: 0;
@@ -345,32 +296,112 @@ a:hover {
   height: 50px;
 }
 
+/** NEW NEW NEW PROJECTS **/
 
-.port_buttons {
-  margin-top: 60px;
-  text-align: right;
-}
-
-.main_project {
+.title_item2 {
   color: #fff;
-  margin-top: 60px;
-  padding-right: 5px;
-  width: 100%;
+  margin-top: 80px;
 }
 
-.small {
-  margin-top: 60px;
-  padding-left: 5px;
-  padding-right: 5px;
-  width: 100%;
+/** SLIDER SLIDER SLIDER **/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.small img:last-child {
-  margin-top: 10px;
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  color: white;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 3px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #d2d2d2;
+  border-radius: 1.5px;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #fff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.0s;
+  animation-name: fade;
+  animation-duration: 3.0s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+/* end of animation */
+
+
+.about_project2 {
+  margin-top: 20px;
+  font-family: RobotoSlab-Regular;
+  font-size: 16px;
+  color: #827C85;
+  letter-spacing: 0;
+  line-height: 34px;
+  padding-right: 80px;
+
 }
 
 .biography-content {
   padding-left: 30px;
+}
+
+.view_project {
+  width: 150px;
+  margin-top: 40px;
 }
 
 .photo-biography {
@@ -379,7 +410,7 @@ a:hover {
 
 .biography-text {
   margin-top: 40px;
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 16px;
   color: #707487;
   letter-spacing: 0px;
@@ -388,7 +419,7 @@ a:hover {
 }
 
 .biography-head-text {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 18px;
   color: #707487;
   letter-spacing: 0.3px;
@@ -422,22 +453,21 @@ a:hover {
 }
 
 .position {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 21px;
+  font-family: Circular-Book;
+  font-size: 24px;
   color: #191A17;
   letter-spacing: 0;
-  font-weight: 400;
 }
 
 .company {
-  font-family: 'Work Sans', sans-serif;
+  font-family: Circular-Book;
   font-size: 20px;
   color: #4630EB;
   letter-spacing: 0;
 }
 
 .working-years {
-  font-family: 'Work Sans', sans-serif;
+  font-family: Circular-Book;
   font-size: 16px;
   color: #707487;
   letter-spacing: 0;
@@ -451,31 +481,26 @@ a:hover {
 }
 
 .footer_text {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 16px;
   color: #FFFFFF;
   letter-spacing: 0;
-  width: 458px;
-  margin:0 auto;
   text-align: center;
   line-height: 30px;
-
 }
 
 .footer_head {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 44px;
+  font-family: Circular-Medium;
+  font-size: 50px;
   color: #fff;
   letter-spacing: 1.35px;
   padding: 20px;
   text-align: center;
-  font-weight: 600;
 }
 
 .button-footer {
   text-align: center;
   padding: 30px;
-  color: #4630EB;
 }
 
 .btn-primary-footer {
@@ -485,6 +510,7 @@ a:hover {
   height: 50px;
   margin-bottom: 40px;
   border: none;
+  color: #4630EB;
 }
 
 .btn-primary-footer:hover {
@@ -498,12 +524,11 @@ a:hover {
 }
 
 .copyright_note {
-  font-family: 'Roboto Slab', serif;
+  font-family: RobotoSlab-Regular;
   font-size: 12px;
   color: #FFFFFF;
   letter-spacing: 0;
   text-align: right;
-  margin-top: 20px;
 }
 
 .social {
@@ -517,111 +542,4 @@ a:hover {
   margin-right: 20px;
 }
 
-.img_full{
-   display:block;
-  }
 
- .img_mobile{
-  display:none;
- }
-
-@media only screen and (max-width: 812px) {
-
-.title {
-  margin-top:0px;
-  width: inherit;
-}
-
-.about-me {
-  width: initial;
-}
-
-.socials {
-  display: flex;
-  justify-content: space-around;
-  padding: 0;
-  margin: 0px;
-  margin-top: 20px;
-}
-
-img {
-  width: 100%;
-}
-
-.blog_item {
-  width: initial;
-}
-
-.button_call {
-  text-align: center;
-  margin-top: 15px; 
-}
-
-.port_buttons {
-  text-align: center;
-}
-
-.main_project {
-  padding-right: 15px;
-}
-
-.biography-head-text, .biography-text {
-  width: initial;
-}
-
-.social {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
-}
-
-.scroll_more {
-  display: none;
-}
-
-.blog-right-col {
-  margin-top: -20px;
-}
-
-.pen {
-  width: 60px;
-  height: 60px
-}
-
-.arrow_down {
-  display: none;
-}
-
-.brand {
-  text-align: center;
-}
-
-.nav_header {
-  text-align: center;
-}
-
-.interested_work {
-  text-align: center;
-}
-
-.copyright_note {
-  text-align: center;
-}
-
-.img_full {
-   display:none;
-  }
-
-.img_mobile {
-   display:block;
-  }
-
-.footer_text {
-  width: initial;
-}
-
-.small {
-  margin-top: 10px;
-}
-
-}
