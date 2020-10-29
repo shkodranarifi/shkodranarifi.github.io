@@ -7,6 +7,9 @@
   	<meta name="keywords" content="Ux,UI,Design,Apps,experience">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600,700" rel="stylesheet">
@@ -36,8 +39,7 @@
 
 <body>
   <!--================Header Menu Area =================-->
-
-	<div class="container">
+<!--<div class="container">
 		<div class="row">
 			<div class="brand col-sm-6">
 				<a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
@@ -45,15 +47,40 @@
 			<div class="nav_header col-sm-6">
 				<p>
 					<ul class="nav_header">
-						<!----<li class="nav_links">ABOUT</li> ----->
+						<!----<li class="nav_links">ABOUT</li>
 						<li class="nav_links"><a class="nav-links" href="https://medium.com/@shkodranarifi">BLOG</a></li>
 						<li class="nav_links"><a class="nav_links" href="mailto:shkodranarifi1@gmail.com">CONTACT</a></li>
 					</ul>
 				</p>
 			</div>
 		</div>
-	</div>
+	</div>-->
  <!--================end of header=================-->
+
+<!-- Grey with black text -->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+	<div class="container">
+  <div class="brand col-xs-11">
+	<a class="" href="#"><img src="img/logo.svg" alt=""></a>
+			</div>
+ <!-- Toggler/collapsibe Button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse col-sm-1" id="collapsibleNavbar">
+  <ul class="navbar-nav mr-auto mt-lg-0 navbar-mobile">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://medium.com/@shkodranarifi">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="mailto:shkodranarifi1@gmail.com">Contact</a>
+    </li>
+ 
+  </ul>
+</nav>
 
 	 
 	 <div class="container">
@@ -97,7 +124,7 @@
     <div class="team-logo col-6 col-md-2 col-sm-6">
      <a href="https://www.kwi.com"><img src="img/teams/kwi.png" style="max-width: 120px; max-height: 40px;"></a>
     </div>
-    <div class="team-logo col-6 col-md-2 col-sm-6">
+    <div class="team-logo-barca col-6 col-md-2 col-sm-6">
      <a href="http://barcainnovationhub.com/interactive-technologies-coaches"><img src="img/teams/barca.png" style="max-width: 120px; max-height: 60px;"></a>
      
     </div>
@@ -146,13 +173,13 @@
 
 	      <div class="blog_item">
 	        <div class="item_photo">
-	        	<a href="https://uxdesign.cc/chromes-new-design-a-ux-perspective-3c37fb3430a1"><img src="img/tips.png"></a>
+	        	<a href="https://uxdesign.cc/analyzing-hey-com-design-a9dabdd44af7"><img src="img/hey-com.png" style="max-width: 450px;"></a>
 	        </div>
 
 	        <div class="item-content">
-		        <p class="item-type">Tips</p>
-		        <a href="https://uxdesign.cc/useful-tips-you-need-to-know-before-working-on-your-next-product-ux-9e45b61714a0"><h3 class="title_item"> Useful tips you need to know before working on your next product UX </h3></a>
-		        <a href="https://uxdesign.cc/useful-tips-you-need-to-know-before-working-on-your-next-product-ux-9e45b61714a0"><p class="read_more"> Read more </p></a>
+		        <p class="item-type">Critique</p>
+		        <a href="https://uxdesign.cc/analyzing-hey-com-design-a9dabdd44af7"><h3 class="title_item">Analyzing HEY.com design</h3></a>
+		        <a href="https://uxdesign.cc/analyzing-hey-com-design-a9dabdd44af7"><p class="read_more"> Read more </p></a>
 	        </div>
 	    	</div>
 	      <!----<div class="item-content_subscribe">
@@ -166,15 +193,17 @@
 	    <div class="col-lg-6 col-md-6 blog-right-col">
 
 	      <div class="blog_item">
+	        <div class="blog_item">
 	        <div class="item_photo">
-	        	<a href="https://uxdesign.cc/ux-critique-snapchat-2f7b14dc5a30"><img src="img/personal.png"></a>
+	        	<a href="https://uxdesign.cc/chromes-new-design-a-ux-perspective-3c37fb3430a1"><img src="img/tips.png"></a>
 	        </div>
 
 	        <div class="item-content">
-		        <p class="item-type">Personal</p>
-		        <a href="https://medium.com/@shkodranarifi/my-2019-left-my-company-joined-new-company-e3cadb78f7d8"><h3 class="title_item">My 2019 — Left my company, joined new company…</h3></a>
-		        <a href="https://medium.com/@shkodranarifi/my-2019-left-my-company-joined-new-company-e3cadb78f7d8"><p class="read_more"> Read more </p></a>
+		        <p class="item-type">Tips</p>
+		        <a href="https://uxdesign.cc/useful-tips-you-need-to-know-before-working-on-your-next-product-ux-9e45b61714a0"><h3 class="title_item"> Useful tips you need to know before working on your next product UX </h3></a>
+		        <a href="https://uxdesign.cc/useful-tips-you-need-to-know-before-working-on-your-next-product-ux-9e45b61714a0"><p class="read_more"> Read more </p></a>
 	        </div>
+	    	</div>
 		    </div>
 	      <div class="blog_item">
 	        <div class="item_photo">
@@ -363,7 +392,7 @@
 
 	  <div class="row">
 		  <div class="button-footer col-sm-12">
-		  	<button type="button" class="btn btn-primary-footer"><a href="mailto:shkodranarifi1@gmail.com">Drop me a line</a></button>
+		  	<a href="mailto:shkodranarifi1@gmail.com"><button type="button" class="btn btn-primary-footer">Drop me a line</button></a>
 		  </div>
 		</div>
 

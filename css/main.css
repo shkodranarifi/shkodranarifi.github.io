@@ -18,6 +18,7 @@ a:hover {
     color: #4630EB;
 }
 
+
 .img-responsive {
   max-width: 100%;
 }
@@ -58,8 +59,8 @@ a:hover {
 .second-title {
   font-family: 'Roboto Slab', serif;
   font-size: 14px;
-  color: #4630EB;
-  letter-spacing: 5.83px;
+  color: #17a2b8;
+  letter-spacing: 4.83px;
   margin-bottom: 44px;
   font-weight: 600;
 }
@@ -568,10 +569,15 @@ a:hover {
 .title {
   margin-top:0px;
   width: inherit;
+  font-size: 30px;
 }
 
 .about-me {
   width: initial;
+}
+
+.hero_text {
+  margin-top: 120px;
 }
 
 .socials {
@@ -632,6 +638,7 @@ img {
 
 .brand {
   text-align: center;
+
 }
 
 .nav_header {
@@ -666,6 +673,7 @@ img {
   margin-bottom: 40px;
 }
 
+
 .note {
   margin-top: 70px;
 }
@@ -673,3 +681,20 @@ img {
 .blog {
   margin-top: 16px;
 }
+
+.team-logo-barca {
+  max-width: 100px;
+  margin-right: 80px;
+  margin-bottom: 40px;
+}
+
+
+.navbar-mobile {
+  margin-top: 20px;
+}
+
+.hero_photo {
+  max-width: 320px;
+  margin-top: 30px;
+}
+
