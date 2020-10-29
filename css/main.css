@@ -3,6 +3,10 @@ a {
     color: #4630EB;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a.btn {
   color: white !important;
   padding-top: 0px !important;
@@ -92,6 +96,11 @@ a:hover {
   letter-spacing: 1.08px;
   margin-top: 50px;
   font-weight: 400;
+}
+
+
+.teams-icons {
+  margin-top: 40px;
 }
 
 /** Blog section **/
@@ -549,6 +558,11 @@ a:hover {
   display:none;
  }
 
+
+.note {
+  margin-top: 40px;
+}
+
 @media only screen and (max-width: 812px) {
 
 .title {
@@ -648,4 +662,14 @@ img {
   margin-top: 10px;
 }
 
+.team-logo {
+  margin-bottom: 40px;
+}
+
+.note {
+  margin-top: 70px;
+}
+
+.blog {
+  margin-top: 16px;
 }
