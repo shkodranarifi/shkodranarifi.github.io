@@ -32,6 +32,10 @@ a:hover {
   text-align: right;
 }
 
+.bg-light {
+  background-color: #ffffff!important;
+}
+
 .nav_links {
   display: inline-block;
   font-family: 'Work Sans', sans-serif;
