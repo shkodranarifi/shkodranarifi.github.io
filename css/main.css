@@ -55,7 +55,7 @@ a:hover {
   font-size: 48px;
   color: #191A17;
   letter-spacing: 1.5px;
-  margin-top:200px;
+  margin-top:150px;
   font-weight:600;
 
 }
@@ -82,12 +82,12 @@ a:hover {
 
 
 .hero_photo {
-  margin-top: 160px;
+  margin-top: 110px;
 }
 
 .socials {
    list-style-type: none;
-   margin-top: 300px;
+   margin-top: 230px;
 }
 
 .socials_li {
