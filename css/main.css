@@ -18,6 +18,13 @@ a:hover {
     color: #4630EB;
 }
 
+body {
+    
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
 
 .img-responsive {
   max-width: 100%;
@@ -30,6 +37,17 @@ a:hover {
 
 .nav_header {
   text-align: right;
+}
+
+.nav_text {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #787C8E;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 8px;
+  padding-right: 20px;
 }
 
 .bg-light {
@@ -52,12 +70,33 @@ a:hover {
 
 .title {
   font-family: 'Work Sans', sans-serif;
-  font-size: 36px;
+  font-size: 24px;
   color: #191A17;
-  letter-spacing: 1.5px;
+  line-height: 34px;
+
   margin-top:150px;
   font-weight:600;
+  max-width: 420px;
+  margin-bottom: 24px;
 
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.horizontal_line {
+  width: 100px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #4630EB;
+  margin-bottom: 20px;
+ 
+  margin-top: 80px;
 }
 
 
@@ -68,7 +107,7 @@ a:hover {
   color: #707487;
   letter-spacing: 0.3px;
   line-height: 34px;
-  width: 450px;
+  max-width: 450px;
   font-weight: 400;
 }
 
@@ -98,6 +137,7 @@ a:hover {
 
 .teams-icons {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 /** Blog section **/
@@ -322,6 +362,23 @@ a:hover {
   margin-top: 20px;
 }
 
+.project_name {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+.project_description {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 8px;
+  opacity: 0.7;
+}
 
 
 .btn-outline-primary-dribbble {
@@ -544,7 +601,8 @@ a:hover {
 .title {
   margin-top:0px;
   width: inherit;
-  font-size: 30px;
+  font-size: 28px;
+  line-height: 44px;
 }
 
 .about-me {
@@ -553,6 +611,7 @@ a:hover {
 
 .hero_text {
   margin-top: 120px;
+
 }
 
 .socials {
@@ -646,6 +705,7 @@ img {
 
 .team-logo {
   margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 
